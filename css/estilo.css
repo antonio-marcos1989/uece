@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+}
+form fieldset {
+    border-style: dashed;
+    background-color:gainsboro;
+    padding: 10px;
+}
+form legend {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    font-size: 20px;
+}
+h1 {
+    margin: 10px;
+}
+form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: brown;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: fuchsia;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+a:active {
+    color:blue;
+}

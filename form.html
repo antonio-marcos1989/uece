@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula sobre Formulário HTML</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <h1>Formulário HTML</h1>
+        <p><a href="#">Ir para Galeria</a></p>
+        <form action="">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome"><br>
+                <label for="sobrenome">Sobrenome</label><br>
+                <input type="text" name="sobrenome" id="nome"><br>
+                <label for="cpf">CPF</label><br>
+                <input type="text" name="cpf" id="cpf" value="123.456.789-10" readonly><br>
+                <label for="esc">Escolaridade</label><br>
+                <input list="escolaridades" name="esc">
+                <datalist id="escolaridades">
+                    <option value="Ensino Fundamental">
+                    <option value="Ensino Médio">
+                    <option value="Ensino Superior"> 
+                    <option value="Pós-Graduação">
+                </datalist><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email"><br>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>
